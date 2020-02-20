@@ -1,0 +1,120 @@
+.animate-top
+{
+    animation:animatetop 2s;
+    position: relative; 
+    width: auto;
+    height: 200px; 
+}
+
+@keyframes animatetop
+{   from
+    {
+        top:-100px;
+        opacity:0
+    }
+    to
+    {
+        top:0;
+        opacity:1
+    }
+}
+
+body{
+    background-color: #f1f3f4;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+h1{
+    font-family: 'Satisfy', cursive;
+    
+}
+
+.projects {
+    border-radius: 30%;
+    border-style: solid;
+    background-size: auto;
+}
+
+.subtext{
+    font-family: 'Sacramento', cursive;
+}
+
+img{
+
+    position: relative;
+    display: inline-block;
+}
+.first_contant{
+    position: relative;
+    display: inline-block;
+}
+
+.first_contant .text{
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30%;   
+}
+.my_name{
+    font-size: 500%;
+}
+.subtext{
+    font-size: 350%;
+    color: black ;
+}
+
+.mounten{
+    width: 1500px;
+}
+
+.pojects_image{
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.project_div
+{
+    width: 55%;
+    margin: auto;
+    text-align: left;
+    line-height: 2;
+
+}
+h2{
+    color: #2a7886;
+    line-height: 0.2;
+}
+h3{
+    color: black;
+}
+
+.skills_div{
+    width: 55%;
+    margin: auto;
+    text-align: left;
+    line-height: 2;
+}
+.skills_image{
+    width: 25%;
+    float: right;
+    margin-left: 20px;
+}
+
+.education_div{
+    width: 55%;
+    margin: auto;
+    text-align: left;
+    line-height: 2;
+    margin-top: 20px;
+}
+
+.education_image{
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+    
+}
